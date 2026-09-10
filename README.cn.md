@@ -4,13 +4,25 @@
 
 An extremely fast Swift package and project manager, written in Rust.
 
-![gust](https://repo.x-cmd.io/gust.svg)
+![gust](https://repo.x-cmd.io/gust.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install gust
 ```
+
+## 代码洞察
+
+合计: **10,081** 行代码（覆盖前 5 种语言、共 **58** 个文件）。
+
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
+| Rust | 8,871 | 373 | 1,534 | 34 |
+| Sh | 738 | 96 | 145 | 6 |
+| Toml | 326 | 28 | 48 | 15 |
+| Yaml | 88 | 0 | 13 | 1 |
+| Ruby | 58 | 6 | 15 | 2 |
 
 ## 源代码
 
@@ -22,7 +34,6 @@ x install gust
 - **最新版本**: `v0.2.9` (2025-12-25)
 - **最近提交**: 2025-12-25
 - **Release 含资产**: 4 个
-- **发布时间**: 2025-12-25T22:23:34Z
 
 ## 流行度
 
@@ -37,20 +48,20 @@ x install gust
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-12 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 90d | 2026-06-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-14 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 360d | 2025-09-15 | 6 | 0 | 0 | 0 | 0 | 36 |
+| last720d | 2024-09-20 | 6 | 0 | 0 | 0 | 0 | 36 |
 
-## 代码规模
+## Release 资产
 
-合计: **10,081** 行代码（覆盖前 5 种语言、共 **58** 个文件）。
-
-| 语言 | 代码 | 注释 | 空行 | 文件数 |
-|------|-----:|-----:|-----:|------:|
-| Rust | 8,871 | 373 | 1,534 | 34 |
-| Sh | 738 | 96 | 145 | 6 |
-| Toml | 326 | 28 | 48 | 15 |
-| Yaml | 88 | 0 | 13 | 1 |
-| Ruby | 58 | 6 | 15 | 2 |
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [gust-aarch64-apple-darwin.tar.gz](https://github.com/quantbagel/gust/releases/download/v0.2.9/gust-aarch64-apple-darwin.tar.gz) | 3.7 MiB | `native/darwin/arm64` |
+| [gust-aarch64-unknown-linux-gnu.tar.gz](https://github.com/quantbagel/gust/releases/download/v0.2.9/gust-aarch64-unknown-linux-gnu.tar.gz) | 4.0 MiB | `native/linux/arm64/glibc` |
+| [gust-x86_64-apple-darwin.tar.gz](https://github.com/quantbagel/gust/releases/download/v0.2.9/gust-x86_64-apple-darwin.tar.gz) | 3.9 MiB | `native/darwin/x64` |
+| [gust-x86_64-unknown-linux-gnu.tar.gz](https://github.com/quantbagel/gust/releases/download/v0.2.9/gust-x86_64-unknown-linux-gnu.tar.gz) | 4.2 MiB | `native/linux/x64/glibc` |
 
 ## 改进这些数据
 
@@ -61,4 +72,4 @@ gust 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:50:36Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T23:46:09Z._
